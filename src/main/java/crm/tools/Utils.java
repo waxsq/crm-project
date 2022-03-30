@@ -27,7 +27,7 @@ public class Utils {
 //随机生成
     public static String getUUID()
     {
-        Object o = new Object();
+      
         String string = UUID.randomUUID().toString().replaceAll("-","");
         return string;
     }
